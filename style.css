@@ -47,6 +47,7 @@
     border: none;
     font-size: 12px;
     cursor: pointer;
+	padding:0px;
 }
 .dropdown {
     position: relative;
@@ -72,7 +73,7 @@
 .drop_content p:hover {
 	background-color: #f1f1f1
 }
-.dropdown:hover .drop_content {
+.dropdown:hover .drop_content, .dropdown.hover_effect .drop_content{
     display: block;
 }
 
@@ -124,7 +125,7 @@ hr{
 
 @media only screen and (max-width: 650px){
 	#img1{
-		padding-left: 2vw;
+		padding-left: 0vw;
 		padding-right: 1vw;
 	}
 	#img2{
@@ -132,5 +133,9 @@ hr{
 	}
 	.q{
 		font-size: 20px;
+	}
+	#date{
+		display: block;
+		margin-bottom: 20px;
 	}
 }

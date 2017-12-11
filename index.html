@@ -2,17 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Tara Gildersleeve</title>
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="fartscroll.js"></script>
-		<script> 
-			$(document).ready(function() {
-				fartscroll(); 
-			});
-		</script>
 	</head>
 	<body>
 		<div id="top">
@@ -59,7 +52,19 @@
 			<div class="a">A: Yeah, quite a bit, actually.</div>
 			<hr>
 			<div class="q">Q: How much time did she waste making this?</div>
-			<div class="a">A: About two fun-filled hours.</div>
+			<div class="a">A: About three fun-filled hours.</div>
 		</div>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="fartscroll.js"></script>
+		<script> 
+			$(document).ready(function() {
+				fartscroll();
+				$('.dropdown').bind('touchend', function(e) {
+					e.preventDefault();
+					$('.drop_content').toggle();
+				});
+			});
+		</script>
 	</body>
 </html>
