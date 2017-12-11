@@ -1,0 +1,136 @@
+/*
+	dark gray font: #505050
+	light gray font: #b8b8b8
+*/
+#header, #caption, .q, .a{
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+#top{
+	padding-left: 3vw;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+#infographic{
+	color: #006400;
+	margin-bottom: 22px;
+	font-weight: bold;
+}
+#infographic:hover{
+	color: #002000;
+}
+#header{
+	font-weight: bold;
+	font-size: 33px;
+	margin-bottom: 22px;
+}
+#header:hover,#date:hover  {
+    text-decoration: underline;
+}
+#see_more:hover {
+    text-decoration: underline;
+    text-decoration-color: #b8b8b8;
+}
+#tiny_stuff,#infographic{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.light_gray{
+	color:#b8b8b8;
+}
+#date{
+	margin-right: 10px;
+}
+
+
+/* drop down */
+.drop_button {
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.drop_content {
+    display: none;
+    position: absolute;
+    background-color: #fdfdfd;
+    min-width: 220px;
+    z-index: 1;
+    border: 0.5px solid #b8b8b8;
+    border-radius: 4px;
+}
+.drop_content p {
+    color: #505050;
+    padding: 15px 16px;
+    margin: 0;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+.drop_content p:hover {
+	background-color: #f1f1f1
+}
+.dropdown:hover .drop_content {
+    display: block;
+}
+
+
+/* images */
+#img1,#img2{
+	height: 35vw;
+}
+#images{
+	display: block;
+	overflow: hidden;
+}
+#img1{
+	padding-left: 3vw;
+	padding-right: 3vw;
+	float: left;
+}
+#img2{
+	padding-right: 3vw;
+	float: right;
+}
+
+
+/* Q & A section */
+#main{
+	margin-left: 6vw;
+	margin-right: 6vw;
+	padding-bottom: 30px;
+}
+#caption{
+	padding-top: 20px;
+	font-size: 18px;
+	color: #505050;
+}
+.q{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.a{
+	font-size: 18px;
+	color: #505050;
+}
+hr{
+	border: 1px solid #e8e8e8;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 650px){
+	#img1{
+		padding-left: 2vw;
+		padding-right: 1vw;
+	}
+	#img2{
+		padding-right: 2vw;
+	}
+	.q{
+		font-size: 20px;
+	}
+}
