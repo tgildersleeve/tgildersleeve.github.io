@@ -53,7 +53,7 @@ var fartscroll = (function () {
     //     playAudio();
     //     lastOffset = scrollOffset;
     //   }
-      if (window.scrollY > 850 && window.scrollY < 880){
+      if (window.scrollY > 1120 && window.scrollY < 1150){
       	playAudio();
       }
     };
