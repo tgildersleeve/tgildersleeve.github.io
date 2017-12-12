@@ -48,6 +48,7 @@
     font-size: 12px;
     cursor: pointer;
 	padding:0px;
+	background-color: #fff;
 }
 .dropdown {
     position: relative;
@@ -57,7 +58,7 @@
     display: none;
     position: absolute;
     background-color: #fdfdfd;
-    min-width: 220px;
+    min-width: 410px;
     z-index: 1;
     border: 0.5px solid #b8b8b8;
     border-radius: 4px;
