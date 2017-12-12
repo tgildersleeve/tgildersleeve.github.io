@@ -53,7 +53,8 @@ var fartscroll = (function () {
     //     playAudio();
     //     lastOffset = scrollOffset;
     //   }
-      if (window.scrollY > 950 && window.scrollY < 1000){
+    var distanceFromBottom = Math.floor($(document).height() - $(document).scrollTop() - $(window).height());
+      if (distanceFromBottom < 100){
       	playAudio();
       }
     };

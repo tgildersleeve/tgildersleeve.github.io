@@ -139,4 +139,7 @@ hr{
 		display: block;
 		margin-bottom: 20px;
 	}
+	.drop_content{
+		min-width: 330px;
+	}
 }
