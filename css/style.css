@@ -83,6 +83,7 @@ a:hover, .menuItem:hover {
 	padding-top: 100px;
 	margin-bottom: -30px;
 	text-align: center;
+	background-repeat: repeat;
 }
 .mainText.home h1{
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -394,6 +395,7 @@ li.amenitiesList{
 		padding-top: 100px;
 		margin-bottom: -30px;
 		text-align: center;
+		background-repeat: repeat;
 	}
 }
 @media screen and (max-width:1000px) {
