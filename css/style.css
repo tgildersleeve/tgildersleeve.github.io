@@ -71,16 +71,18 @@ a:hover, .menuItem:hover {
 /* BEGIN HOME */
 
 #homeSection{
-	background-image: url("../images/general/cover.jpg");
-	background-attachment: fixed;
-	background-position: center center;
-	background-size: cover;
-	height: 100vh;
-	position: relative;
-	text-align: center;
-	margin-top: -30px;
+	background: url("../images/general/cover.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: -30px;
 	padding-top: 100px;
 	margin-bottom: -50px;
+	text-align: center;
 }
 .mainText.home h1{
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
