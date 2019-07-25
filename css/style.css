@@ -379,6 +379,22 @@ li.amenitiesList{
 	    width: 100%;
 	    position: absolute;
 	}
+	#homeSection{
+		background: url("../images/general/cover.jpg") no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-attachment: scroll
+	    background-size: cover;
+	    max-width: 500px;
+	    max-height: 823px;
+	    position: relative;
+	    object-fit: cover;
+	    overflow: hidden;
+		padding-top: 100px;
+		margin-bottom: -30px;
+		text-align: center;
+	}
 }
 @media screen and (max-width:1000px) {
 	.leftStackContainer, .rightStackContainer{
