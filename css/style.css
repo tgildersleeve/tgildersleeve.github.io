@@ -6,7 +6,6 @@
 	color: #FFFFFF;
 }
 
-
 /* BEGIN NAVIGATION */ 
 
 nav{
@@ -71,19 +70,11 @@ a:hover, .menuItem:hover {
 /* BEGIN HOME */
 
 #homeSection{
-	background: url("../images/general/cover.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-attachment: scroll
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-	padding-top: 100px;
-	margin-bottom: -30px;
+	height: 100vh;
+	position: relative;
 	text-align: center;
-	background-repeat: repeat;
+	padding-top: 100px;
+	margin-bottom: -40px;
 }
 .mainText.home h1{
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -380,23 +371,6 @@ li.amenitiesList{
 	    width: 100%;
 	    position: absolute;
 	}
-	#homeSection{
-		background: url("../images/general/cover.jpg") no-repeat center center fixed;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-attachment: scroll
-	    background-size: cover;
-	    max-width: 500px;
-	    max-height: 823px;
-	    position: relative;
-	    object-fit: cover;
-	    overflow: hidden;
-		padding-top: 100px;
-		margin-bottom: -30px;
-		text-align: center;
-		background-repeat: repeat;
-	}
 }
 @media screen and (max-width:1000px) {
 	.leftStackContainer, .rightStackContainer{
@@ -421,5 +395,18 @@ footer{
 	text-align: center;
 	font-size: 12px;
 }
+
+.backgroundImgContainer{
+	display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -999;
+    height: 100%;
+    width: 100%;
+}
+
+
 
 /* END FOOTER */
