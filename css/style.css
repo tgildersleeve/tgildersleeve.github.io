@@ -297,6 +297,9 @@ li.amenitiesList{
 	vertical-align: center;
 	text-align: center;
 }
+.fa-star {
+	color: #1a5e81;
+}
 .w3-left, .w3-right, .w3-badge {
 	cursor: pointer;
 }
