@@ -161,15 +161,16 @@ a:hover, .menuItem:hover {
 .pricing {
 	color: #1a5e81;
 	font-size: 18px;
+	text-align: left;
 }
 @media screen and (max-width:820px) {
 	.pricing {
-		font-size: 12px;
+		font-size: 16px;
 	}
 }
 @media screen and (max-width:500px) {
 	.pricing {
-		font-size: 8px;
+		font-size: 10px;
 	}
 }
 .m-top-30 {
